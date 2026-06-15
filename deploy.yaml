@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: deploy
 spec:
-  replicas: 100
+  replicas: 3
   selector:          # ✅ required field
     matchLabels:
       app: myapp
